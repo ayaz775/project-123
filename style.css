@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    max-width: 1500px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+/* Логотип сайта */
+.logo{
+    height: 85px;
+    width: 110px;
+    border-radius: 50%;
+}
+header{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+/* Кнопки для взаимодействия */
+ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+li{
+    display: inline;
+    margin-right: 100px;
+    background-color: #111111;
+    border-radius: 6px;
+}
+li:last-child{
+    margin-right: 0%;
+}
+/* Ссылка */
+a{
+    color: rgb(148, 148, 148);
+    text-decoration: none;
+    font-size: 18px;
+}
+/* функции Сайта */
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+nav{
+    margin-bottom: 50px;
+
+}
+/* Фон сайта */
+.section-about{
+    height: 600px;
+    background-image: url(../img/фон.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 20px;
+}
+/* карточка над фоном сайта */
+.section-about--1{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    padding-top: 15px;
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(130deg, rgba(26, 8, 8, 0.8), #7a14149d, rgba(255, 0, 0, 0.595) )
+}
+/* граница карточки фона */
+.section-border--1{
+    height: 160px;
+    width: 390px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+h1{
+    color: rgb(223, 223, 223);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-style: normal;
+    text-align: center;
+    line-height: 13px;
+}
+/* текст внутри карточки */
+.info-h1{
+    font-size: medium;
+    text-align: center;
+    font-style: italic;
+}
+b{
+    background-color: rgba(255, 0, 0, 0.562);
+    border-radius: 7px;
+}
+/* заголовок Мир Автомобилей */
+.text-box-title{
+    font-size: 80px;
+    margin: 0;
+    text-align: center;
+    color: rgb(189, 189, 189);
+    margin-bottom: 13px;
+}
+.text-box-text{
+    margin: 0;
+    font-size: 18px;
+    width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(222, 222, 222);
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+.text-box-text-title{
+    color: red;
+}
+.line{
+    background-color: #ff0000;
+    width: 1050px;
+    height: 1px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+footer{
+    height: 20px;
+    margin: 0 auto;
+    color: red;
+    text-align: center;
+}
+.end{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cont{
+    margin-bottom: 30px;
+}
+.contact-title{
+    margin: 0 auto;
+}
+.red{
+    color: #ff0000;
+}
